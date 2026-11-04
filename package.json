@@ -1,0 +1,21 @@
+{
+  "name": "ghost-activitypub-importer",
+  "version": "0.1.0",
+  "description": "Import a Ghost ActivityPub account export into a self-hosted TryGhost/ActivityPub server, keeping its followers",
+  "license": "MIT",
+  "repository": "github:magicpages/ghost-activitypub-importer",
+  "type": "module",
+  "bin": {
+    "ghost-activitypub-importer": "bin/ghost-activitypub-importer.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
